@@ -1,6 +1,16 @@
 # 01-intro-react
 
-# 1 Creamos el `index.hmtl`
+
+1. [1 Creamos el `index.html`](#schema1)
+1. [Creamos nuestro primer hola mundo](#schema2)
+1. [Babel](#schema3)
+
+
+<hr>
+
+<a name="schema1"></a>
+
+# 1 Creamos el `index.html`
 ~~~html
 <!DOCTYPE html>
 <html lang="en">
@@ -23,6 +33,10 @@ para cargar las liberías de React
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 ~~~
+
+<hr>
+
+<a name="schema2"></a>
 
 # 2 Creamos nuestro primer hola mundo
 - Añadimos esto al `index.html`
@@ -57,6 +71,10 @@ para cargar las liberías de React
     </script>
 </body>
 ~~~
+
+<hr>
+
+<a name="schema31"></a>
 
 # 3 Babel
 Nos ayuda a la compatibilidad del código de react para los navegadores
